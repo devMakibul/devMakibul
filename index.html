@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Makibul</title>
+  <meta name="title" content="Makibul">
+  <meta content='Web Developer painting the canvas of the internet.' name='description'/>
+  <meta content='website' property='og:type'/>
+  <meta content='https://makibul.com' property='og:url'/>
+  <meta content='Makibul Web Developer' property='og:title'/>
+  <meta content='Web Developer painting the canvas of the internet.' property='og:description'/>
+  <meta content='./assets/images/meta-banner.png' property='og:image'/>
+  <meta content='summary_large_image' property='twitter:card'/>
+  <meta content='@devMakibul' name='twitter:site'/>
+  <meta content='@devMakibul' name='twitter:creator'/>
+  <meta content='https://makibul.com' property='twitter:url'/>
+  <meta content='Makibul Web Developer' property='twitter:title'/>
+  <meta content='Web Developer painting the canvas of the internet.' property='twitter:description'/>
+  <meta content='./assets/images/meta-banner.png' property='twitter:image'/>
+  <link href='./assets/images/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'/>
+  <link href='./assets/images/favicon.ico' rel='shortcut icon' sizes='any' type='image/png'/>
+  <link href='./assets/images/site.webmanifest' rel='manifest'/>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.png">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="./assets/images/loading.png" width="55" height="55" alt="loading" class="img">
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="loading circle" class="circle">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="40" height="40" alt="Makibul logo home">
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/nav-logo.svg" width="140" height="40"
+            alt="Makibul home" class="img">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#experience" class="navbar-link" data-nav-link>Experience</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+        
+        <a href="mailto:contactmakibul@gmail.com" target="_blank">
+        <button class="login-btn">
+          <img src="./assets/images/email.svg" width="21" height="21" alt="email icon">
+
+          <span class="span">Email me</span>
+        </button>
+        </a>
+
+        <p class="navbar-title">Address</p>
+
+        <address class="navbar-text">
+          Barpeta, Assam, India and sometimes on Mars
+        </address>
+
+        <p>
+         <ul class="social-list" style="justify-content: flex-start">
+
+          <li>
+            <a href="https://github.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/gh.svg" width="40" height="40" loading="lazy" alt="Github icon and link">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/tw.svg" width="40" height="40" loading="lazy" alt="Twitter icon and link">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://t.me/mak1bul" target="_blank" class="social-link">
+              <img src="./assets/images/tg.svg" width="40" height="40" loading="lazy" alt="Telegram icon and link">
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://facebook.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/fb.svg" width="40" height="40" loading="lazy" alt="Facebook icon and link">
+            </a>
+          </li>
+
+         </ul>
+        </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <img src="./assets/images/portrait.png" width="322" height="322" alt="Portrait of Makibul" class="hero-banner">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Makibul</h1>
+
+            <div class="wrapper h3">
+              <strong class="strong" data-letter-effect>a web developer</strong>
+              <strong class="strong" data-letter-effect>painting the</strong>
+              <strong class="strong" data-letter-effect>canvas of</strong>
+              <strong class="strong" data-letter-effect>the internet.</strong>
+            </div>
+
+            <p class="hero-text">
+              <span class="circle">
+                <span class="static-circle">
+                  <span class="beating-circle"></span>
+                </span>
+              </span>
+              <span class="hero-text-child">Open for Hire</span>
+            </p>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="hero shape" class="shape">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          
+          <p class="section-subtitle container" data-reveal>Projects</p>
+
+          <ul class="projects-list">
+
+            <li class="projects-item" data-reveal id="projects-item-1">
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-1.jpg" width="450" height="625" loading="lazy" alt="iOSXPC Landing Page" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://iosxpc.blogspot.com" target="_blank" class="card-title">iOSXPC Wallpapers
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Landing page - Dark mode</span>
+                </div>
+
+              </div>
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-2.jpg" width="450" height="625" loading="lazy" alt="iOSXPC Wallpapers page" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://iosxpc.blogspot.com/p/iosxpc-wallpapers.html" target="_blank" class="card-title">iOSXPC Wallpapers
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Wallpapers page - Light mode</span>
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="projects-item" data-reveal id="projects-item-2">
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-3.jpg" width="450" height="625" loading="lazy" alt="Book Store Homepage" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://bookstore.makibul.com" class="card-title">Book Store
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Homepage</span>
+                </div>
+
+              </div>
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-4.jpg" width="450" height="625" loading="lazy" alt="Book Store Cart page" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://bookstore.makibul.com/cart.html" target="_blank" class="card-title">Book Store
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Cart page</span>
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="projects-item" data-reveal id="projects-item-3">
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-5.jpg" width="450" height="625" loading="lazy" alt="Pashapuma Designs Wallpapers Page" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://pashapumadesigns.blogspot.com/p/pix-wallpapers.html" target="_blank" class="card-title">Pashapuma Designs
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Wallpapers page - Dark mode</span>
+                </div>
+
+              </div>
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-6.jpg" width="450" height="625" loading="lazy" alt="Pashapuma Designs Homepage" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://pashapumadesigns.blogspot.com" target="_blank" class="card-title">Pashapuma Designs
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Homepage - Light mode</span>
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="projects-item" data-reveal id="projects-item-4">
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-7.jpg" width="450" height="625" loading="lazy" alt="WhatsChat Viewer Landing Page" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://whatschat.makibul.com" target="_blank" class="card-title">WhatsChat (coming)
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Landing page - Light mode</span>
+                </div>
+
+              </div>
+
+              <div class="projects-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/projects-8.jpg" width="450" height="625" loading="lazy" alt="WhatsChat Viewer Chat Screen" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="https://whatschat.makibul.com" target="_blank" class="card-title">WhatsChat (coming)
+                      <img src="./assets/images/redirect.svg" loading="lazy" alt="redirect icon" class="redirect-icon">
+                    </a>
+                  </h3>
+
+                  <span class="card-tag">Chat screen with menu- Dark mode</span>
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+          
+          <div class="projects-links">
+            <button class="btn-icon prev-button" onclick="scrollProjects(-1)" data-reveal="left">
+              <img src="./assets/images/arrow-left.svg" width="43" height="20" loading="lazy" alt="arrow-backward icon" data-reveal="left">
+            </button>
+            
+            <button class="btn-icon next-button" onclick="scrollProjects(1)" data-reveal="right">
+              <img src="./assets/images/arrow-right.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon" data-reveal="right">
+            </button>
+          </div>
+
+          <img src="./assets/images/projects-shape.svg" width="220" height="78" loading="lazy" alt="projects shape" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #skills
+      -->
+
+      <section class="section skills" aria-label="photography skills">
+        <div class="container">
+          
+          <p class="section-subtitle container" data-reveal>Skills</p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">HTML,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-1.svg" width="600" height="690" loading="lazy" alt="HTML" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">CSS,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-2.svg" width="600" height="690" loading="lazy" alt="CSS" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">JavaScript,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-3.svg" width="600" height="690" loading="lazy" alt="JavaScript" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">Bootstrap,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-4.svg" width="600" height="690" loading="lazy" alt="Bootstrap" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">jQuery,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-5.svg" width="600" height="690" loading="lazy" alt="jQuery" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">Vue,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-6.svg" width="600" height="690" loading="lazy" alt="Vue" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">React,</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-7.svg" width="600" height="690" loading="lazy" alt="React" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="skills-item" data-reveal>
+              <div class="skills-card">
+
+                <h3 class="h4 card-title">Angular</h3>
+
+                <figure class="card-banner" style="--width: 500; --height: 500;">
+                  <img src="./assets/images/skills-8.svg" width="600" height="690" loading="lazy" alt="Angular" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #experience
+      -->
+
+      <section class="section experience" id="experience" aria-label="experience me">
+        <div class="container">
+
+          <div class="experience-content">
+
+            <h3 class="h3 section-title" data-reveal="right">
+              Experience
+            </h3>
+
+            <div class="wrapper has-before" data-reveal="right">
+
+              <p class="section-text">
+                Web dev extraordinaire with 3+ years of experience in coding, debugging, and cursing at screens. Expertise includes languages and frameworks above, and making websites not look like they were made in the 90s.
+              </p>
+
+            </div>
+
+          </div>
+
+          <figure class="experience-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="./assets/images/experience-banner.jpg" width="512" height="684" loading="lazy" alt="90s Computer setup" class="img-cover">
+            </div>
+
+            <a href="https://buymeacoffee.com/makibul" target="_blank">
+              <img src="./assets/images/experience-shape-1.png" width="178" height="178" loading="lazy" alt="buy me a coffee icon that says that my setup is missing a cup of coffee"
+              class="shape shape-1">
+            </a>
+
+          </figure>
+
+          <img src="./assets/images/experience-shape-3.svg" width="239" height="232" loading="lazy" alt="a shape"
+            class="shape shape-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-labelledby="service-lable">
+
+        <p class="section-subtitle container" id="service-lable">What I do</p>
+
+        <ul class="service-list">
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <div>
+                <h3 class="h3 card-title">Website Design & Development</h3>
+
+                <p class="card-subtitle">
+                  Custom, responsive and functional websites.
+                </p>
+              </div>
+
+              <figure class="btn-icon">
+                  <img src="./assets/images/services-1.svg" loading="lazy" alt="website design icon"
+                    class="img-cover services-icon">
+              </figure>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <div>
+                <h3 class="h3 card-title">E-commerce Solutions</h3>
+
+                <p class="card-subtitle">
+                  Secure, efficient online store development.
+                </p>
+              </div>
+
+              <figure class="btn-icon">
+                  <img src="./assets/images/services-2.svg" loading="lazy" alt="Online store icon"
+                    class="img-cover services-icon">
+              </figure>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <div>
+                <h3 class="h3 card-title">SEO & Performance Optimization</h3>
+
+                <p class="card-subtitle">
+                  Enhance website visibility and ranking.
+                </p>
+              </div>
+
+              <figure class="btn-icon">
+                  <img src="./assets/images/services-3.svg" loading="lazy" alt="Graph stats icon"
+                    class="img-cover services-icon">
+              </figure>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <div>
+                <h3 class="h3 card-title">Logo, Banner and Poster Design</h3>
+
+                <p class="card-subtitle">
+                  Creative, high-quality graphic designs.
+                </p>
+              </div>
+
+              <figure class="btn-icon">
+                  <img src="./assets/images/services-4.svg" loading="lazy" alt="brush icon"
+                    class="img-cover services-icon">
+              </figure>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Me</p>
+
+        <h4 class="h4 section-title" data-reveal>
+          Have a project in mind? Let's collaborate!
+        </h4>
+        
+        <form id="contactForm">
+            <input type="text" id="subject" name="subject" placeholder="Subject" data-reveal required>
+            <br><br>
+            <textarea id="message" name="message" placeholder="Message" rows="5" data-reveal required></textarea>
+            <br><br>
+            <button type="button" id="sendButton" disabled onclick="sendEmail()" class="btn-icon" data-reveal>
+              <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward or next icon">
+            </button>
+        </form>
+
+        <img src="./assets/images/footer-1.png" width="159" height="176" loading="lazy" alt="cup of coffee"
+          class="abs-img abs-img-1" data-reveal>
+
+        <img src="./assets/images/footer-2.png" width="265" height="275" loading="lazy" alt="codes and bugs in pc"
+          class="abs-img abs-img-2" data-reveal>
+
+        <img src="./assets/images/footer-3.png" width="303" height="272" loading="lazy" alt="pc showing 404 and a cup is next to it"
+          class="abs-img abs-img-3" data-reveal>
+
+        <img src="./assets/images/footer-4.png" width="175" height="175" loading="lazy" alt="a computer mouse"
+          class="abs-img abs-img-4" data-reveal>
+
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="footer shape" class="shape">
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="40" height="40" loading="lazy" alt="Makibul logo home">
+        </a>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://github.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/gh.svg" width="40" height="40" loading="lazy" alt="Github">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/tw.svg" width="40" height="40" loading="lazy" alt="Twitter">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://t.me/mak1bul" target="_blank" class="social-link">
+              <img src="./assets/images/tg.svg" width="40" height="40" loading="lazy" alt="Telegram">
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://facebook.com/devMakibul" target="_blank" class="social-link">
+              <img src="./assets/images/fb.svg" width="40" height="40" loading="lazy" alt="Facebook">
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">Made with love</p>
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="keyboard image"
+        class="img-cover">
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
