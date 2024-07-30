@@ -1609,7 +1609,7 @@ body.active { overflow: hidden; }
   .hero-text {
     --fs-10: 2rem;
     font-weight: var(--fw-400);
-    padding: 0px 15px 0 12px;
+    padding: 0px 15px 0 5px;
   }
   
   .hero-text .circle {
